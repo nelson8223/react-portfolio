@@ -1,29 +1,36 @@
 import React from "react";
+import me from '../images/Screenshot 02.png';
+import '../style/Home.css';
+
 
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <h2>This is your home page h2 heading</h2>
+      <h1> Home Page</h1>
+      <img src={me} alt="me screenshot" />
+      <h2>My experience at a Bootcamp:</h2>
       <p>
-        Reprehenderit cillum Lorem do ullamco reprehenderit eu non tempor sint
-        ipsum proident cupidatat. Cupidatat deserunt mollit reprehenderit sunt
-        ipsum veniam ad labore. Cillum veniam sit reprehenderit ea reprehenderit
-        eiusmod sint laborum irure tempor. Dolore occaecat sunt pariatur eu
-        laborum in ea nulla aliquip commodo elit Lorem eiusmod. Consequat
-        consequat consectetur ipsum labore in officia occaecat aliqua nulla
-        commodo aliquip. Voluptate amet mollit Lorem minim consequat velit velit
-        labore ipsum laboris laborum laboris dolore.
-        <br></br>
-        <br></br> 
-        Lorem qui adipisicing
-        cupidatat exercitation sint. Elit ut amet exercitation eiusmod officia
-        sunt dolor labore. Mollit officia minim fugiat nulla. Ut ullamco qui
-        culpa culpa laborum sunt voluptate magna proident veniam. Proident
-        nostrud consequat occaecat esse labore proident et adipisicing cillum.
-        Anim duis in cupidatat consectetur commodo ipsum amet aliqua
-        reprehenderit tempor non cillum.
+        Attending a full stack bootcamp has been an incredibly enriching
+        experience, where I have learned a lot about software engineering.
+        Throughout the program, I have gained a deep understanding of various
+        front-end technologies such as HTML, CSS, Java, and Javascript, which
+        have allowed me to create visually stunning and interactive web
+        applications. Additionally, I have also delved into the backend of web
+        development and have learned how to design, develop, and maintain
+        databases, as well as build and deploy servers to create robust and
+        scalable applications. The skills I have acquired during this bootcamp
+        have not only given me a strong foundation in software engineering but
+        have also prepared me to tackle complex projects and challenges that
+        come with the ever-evolving tech industry.
       </p>
     </div>
   );
+
+  
 }
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+body {
+    background-color: #BAF9B7;
+  }
+  
+  img {
+    max-width: 30%;
+    height: auto;
+    justify-content: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 85px
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 55px
+  }

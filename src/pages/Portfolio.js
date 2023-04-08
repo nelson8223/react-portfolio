@@ -9,7 +9,7 @@ export default function Portfolio() {
 
       <p><a href="https://github.com/nelson8223">My Portfolio</a></p>
 
-      <p><a href="https://github.com/nelson8223/CSS-Orlando-Professional-Portfolio">My first Portfolio</a></p>
+      <p><a href="https://github.com/nelson8223/CSS-Orlando-Professional-Portfolio">My First Portfolio</a></p>
     </div>
   );
 }

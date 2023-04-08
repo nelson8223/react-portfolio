@@ -1,23 +1,21 @@
 import React from "react";
+import me1 from '../images/Screenshot 03.png';
 
 export default function About() {
   return (
     <div>
-      <h1>About Component</h1>
-      <h2>This is your h2 heading</h2>
+      <h1>About Orlando Nelson</h1>
+      <img src={me1} alt="me screenshot" />
+      <h2>Here is a Little History of Me:</h2>
       <p>
-        Attending a full stack bootcamp has been an incredibly enriching
-        experience, where I have learned a lot about software engineering.
-        Throughout the program, I have gained a deep understanding of various
-        front-end technologies such as HTML, CSS, Java, and Javascript, which
-        have allowed me to create visually stunning and interactive web
-        applications. Additionally, I have also delved into the backend of web
-        development and have learned how to design, develop, and maintain
-        databases, as well as build and deploy servers to create robust and
-        scalable applications. The skills I have acquired during this bootcamp
-        have not only given me a strong foundation in software engineering but
-        have also prepared me to tackle complex projects and challenges that
-        come with the ever-evolving tech industry.
+      Orlando Nelson is a native of Brooklyn, New York, where he was born and raised. After completing 
+      his high school education, he went on to attend college in Richmond, VA, where he majored in Business Management. 
+      During his time in college, he learned a great deal about various aspects of business, including management, 
+      marketing, and finance. After graduation, he landed a job at Capital One Bank, where he has been working in the
+       back-office operations department. Recently, he has embarked on a new journey of learning about software 
+       engineering and has been attending a full-stack boot camp, where he has been honing his skills in front-end and 
+       back-end development. With his passion for learning and his strong work ethic, Orlando is well-positioned to 
+       succeed in the ever-evolving tech industry.
       </p>
     </div>
   );
