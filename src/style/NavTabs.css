@@ -1,0 +1,27 @@
+.navTabs {
+    background: #D3D3D3;
+    height: 60px;
+  }
+  
+  .navTabs a {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 5px;
+    line-height: 3;
+  }
+  
+
+
+
+
+
+
+
+.NavTabs {
+    padding: 60px;
+    text-align: center;
+    background: #D3D3D3;
+    color: white;
+    font-size: 30px;
+  }
